@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="دموی فروشگاه آنلاین کیف" />
+  <title>DELVIN | فروشگاه کیف</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark">V</span>
+          <span>
+            <strong>DELVIN</strong>
+            <small>کیف، سبک زندگی</small>
+          </span>
+        </a>
+
+        <nav class="nav">
+          <a class="nav-link active" href="#home">خانه</a>
+          <a class="nav-link" href="#shop">فروشگاه</a>
+          <a class="nav-link" href="#categories">دسته‌بندی‌ها</a>
+          <a class="nav-link" href="#about">درباره ما</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" id="themeToggle" aria-label="تغییر تم" title="تغییر تم">
+            <span id="themeIcon">☾</span>
+          </button>
+          <button class="icon-btn" aria-label="جستجو" title="جستجو">⌕</button>
+          <button class="cart-btn" aria-label="سبد خرید">
+            <span>سبد خرید</span>
+            <b id="cartCount">0</b>
+          </button>
+          <button class="menu-btn" id="menuToggle" aria-label="باز کردن منو">☰</button>
+        </div>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#home">خانه</a>
+        <a href="#shop">فروشگاه</a>
+        <a href="#categories">دسته‌بندی‌ها</a>
+        <a href="#about">درباره ما</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <span class="eyebrow">COLLECTION 2026</span>
+          <h1>کیفی که فقط<br><span>یک اکسسوری نیست.</span></h1>
+          <p>
+            انتخابی از کیف‌های روزمره، مینیمال و خاص؛
+            برای استایلی که قرار است دیده شود.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#shop">مشاهده محصولات <span>←</span></a>
+            <a class="text-btn" href="#categories">دسته‌بندی‌ها</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>+۵۰۰</strong><span>محصول</span></div>
+            <div><strong>+۱۲</strong><span>دسته‌بندی</span></div>
+            <div><strong>۴.۹/۵</strong><span>رضایت مشتری</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-badge">NEW<br>DROP</div>
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=85"
+              alt="کیف زنانه"
+            />
+          </div>
+          <div class="floating-card">
+            <span>پیشنهاد ویژه</span>
+            <strong>تا ۳۰٪ تخفیف</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar">
+        <div class="container trust-grid">
+          <div><span>✓</span><div><strong>ارسال سریع</strong><small>به سراسر کشور</small></div></div>
+          <div><span>✓</span><div><strong>ضمانت اصالت</strong><small>با خیال راحت خرید کنید</small></div></div>
+          <div><span>✓</span><div><strong>پرداخت امن</strong><small>سریع و مطمئن</small></div></div>
+          <div><span>✓</span><div><strong>پشتیبانی</strong><small>همراه شما هستیم</small></div></div>
+        </div>
+      </section>
+
+      <section class="section container" id="categories">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">EXPLORE</span>
+            <h2>دسته‌بندی‌ها</h2>
+          </div>
+          <a class="text-btn" href="#shop">مشاهده همه ←</a>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card large" href="#shop">
+            <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=1200&q=80" alt="کیف دستی">
+            <div class="overlay"></div>
+            <div class="category-info">
+              <span>01</span>
+              <h3>کیف دستی</h3>
+              <small>مشاهده مجموعه ←</small>
+            </div>
+          </a>
+
+          <a class="category-card" href="#shop">
+            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80" alt="کوله پشتی">
+            <div class="overlay"></div>
+            <div class="category-info">
+              <span>02</span>
+              <h3>کوله‌پشتی</h3>
+              <small>مشاهده مجموعه ←</small>
+            </div>
+          </a>
+
+          <a class="category-card" href="#shop">
+            <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=900&q=80" alt="کیف مجلسی">
+            <div class="overlay"></div>
+            <div class="category-info">
+              <span>03</span>
+              <h3>مجلسی</h3>
+              <small>مشاهده مجموعه ←</small>
+            </div>
+          </a>
+
+          <a class="category-card" href="#shop">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80" alt="کیف مینیمال">
+            <div class="overlay"></div>
+            <div class="category-info">
+              <span>04</span>
+              <h3>مینیمال</h3>
+              <small>مشاهده مجموعه ←</small>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section products-section" id="shop">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">BEST SELLERS</span>
+              <h2>محبوب‌ترین‌ها</h2>
+            </div>
+            <div class="filter-row">
+              <button class="filter-chip active" data-filter="all">همه</button>
+              <button class="filter-chip" data-filter="new">جدید</button>
+              <button class="filter-chip" data-filter="sale">تخفیف‌دار</button>
+            </div>
+          </div>
+
+          <div class="products-grid" id="productsGrid">
+            <article class="product-card" data-tags="all new">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80" alt="کیف چرم کلاسیک">
+                <span class="product-label">جدید</span>
+                <button class="heart" aria-label="افزودن به علاقه‌مندی">♡</button>
+              </div>
+              <div class="product-body">
+                <span class="product-category">کیف دستی</span>
+                <h3>کیف چرم کلاسیک</h3>
+                <div class="product-bottom">
+                  <strong>۲,۴۹۰,۰۰۰ تومان</strong>
+                  <button class="add-btn" data-product="کیف چرم کلاسیک">+</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tags="all sale">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80" alt="کوله شهری">
+                <span class="product-label sale">۲۰٪ تخفیف</span>
+                <button class="heart" aria-label="افزودن به علاقه‌مندی">♡</button>
+              </div>
+              <div class="product-body">
+                <span class="product-category">کوله‌پشتی</span>
+                <h3>کوله شهری Urban</h3>
+                <div class="product-bottom">
+                  <strong>۱,۸۹۰,۰۰۰ تومان</strong>
+                  <button class="add-btn" data-product="کوله شهری Urban">+</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tags="all new">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=800&q=80" alt="کیف دوشی">
+                <span class="product-label">جدید</span>
+                <button class="heart" aria-label="افزودن به علاقه‌مندی">♡</button>
+              </div>
+              <div class="product-body">
+                <span class="product-category">دوشی</span>
+                <h3>کیف دوشی Noir</h3>
+                <div class="product-bottom">
+                  <strong>۱,۷۵۰,۰۰۰ تومان</strong>
+                  <button class="add-btn" data-product="کیف دوشی Noir">+</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tags="all sale">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=800&q=80" alt="کیف مجلسی">
+                <span class="product-label sale">۱۵٪ تخفیف</span>
+                <button class="heart" aria-label="افزودن به علاقه‌مندی">♡</button>
+              </div>
+              <div class="product-body">
+                <span class="product-category">مجلسی</span>
+                <h3>کیف مجلسی Pearl</h3>
+                <div class="product-bottom">
+                  <strong>۲,۱۵۰,۰۰۰ تومان</strong>
+                  <button class="add-btn" data-product="کیف مجلسی Pearl">+</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo container">
+        <div>
+          <span class="eyebrow">YOUR STYLE, YOUR CHOICE</span>
+          <h2>استایل خودت را بساز.</h2>
+          <p>محصولات منتخب با طراحی مینیمال و کیفیتی که برای استفاده روزمره ساخته شده‌اند.</p>
+          <a class="light-btn" href="#shop">خرید مجموعه جدید</a>
+        </div>
+        <div class="promo-shape">
+          <span>V</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="about">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span><strong>DELVIN</strong><small>کیف، سبک زندگی</small></span>
+          </div>
+          <p>فروشگاه آنلاین کیف با تمرکز روی طراحی، کیفیت و تجربه خرید ساده.</p>
+        </div>
+        <div>
+          <h4>دسترسی سریع</h4>
+          <a href="#shop">فروشگاه</a>
+          <a href="#categories">دسته‌بندی‌ها</a>
+          <a href="#">قوانین و مقررات</a>
+        </div>
+        <div>
+          <h4>پشتیبانی</h4>
+          <a href="#">تماس با ما</a>
+          <a href="#">پیگیری سفارش</a>
+          <a href="#">سوالات متداول</a>
+        </div>
+        <div>
+          <h4>خبرهای جدید</h4>
+          <p class="footer-muted">برای اطلاع از تخفیف‌ها و محصولات جدید، ما را دنبال کنید.</p>
+          <div class="socials"><span>IG</span><span>WA</span><span>TK</span></div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 DELVIN — تمامی حقوق محفوظ است.</span>
+        <span>نسخه دمو برای ارائه به کارفرما</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast">محصول به سبد خرید اضافه شد.</div>
+  <script src="script.js"></script>
+</body>
+</html>
