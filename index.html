@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BAG.DELVIN | GALLERY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>ارسال سریع و بسته‌بندی حرفه‌ای DELVIN</span>
+      <a href="#support">پشتیبانی و تماس با ما</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-main">
+      <a href="#" class="logo">
+        <span class="logo-mark">D</span>
+        <span class="logo-copy"><strong>BAG.DELVIN</strong><small>GALLERY</small></span>
+      </a>
+
+      <form class="search" id="searchForm">
+        <input id="searchInput" type="search" placeholder="جستجوی محصولات...">
+        <button aria-label="جستجو">⌕</button>
+      </form>
+
+      <div class="actions">
+        <button class="action">⇄</button>
+        <button class="action">♡</button>
+        <button class="action account">حساب کاربری</button>
+        <button class="action cart">سبد <b id="cartCount">0</b></button>
+        <button class="action" id="themeToggle">☾</button>
+      </div>
+    </div>
+
+    <div class="nav-wrap">
+      <nav class="container nav">
+        <a class="active" href="#">خانه</a>
+        <a href="#shop">فروشگاه</a>
+        <a href="#collections">کالکشن‌ها</a>
+        <a href="#sale">فروش ویژه</a>
+        <a href="#blog">آخرین مطالب</a>
+        <a href="#about">درباره DELVIN</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="notice">
+        <span>جدیدترین محصولات و کالکشن‌های BAG.DELVIN GALLERY را ببینید</span>
+        <a href="#shop">مشاهده محصولات ←</a>
+      </div>
+
+      <section class="section" id="shop">
+        <div class="section-head">
+          <div><h2>جدیدترین محصولات</h2><span>انتخاب‌های تازه DELVIN</span></div>
+          <a class="section-link" href="#shop">مشاهده همه ←</a>
+        </div>
+        <div class="tabs">
+          <button class="active" data-filter="all">همه</button>
+          <button data-filter="bag">کیف</button>
+          <button data-filter="handbag">کیف دستی</button>
+          <button data-filter="shoulder">دوشی</button>
+          <button data-filter="backpack">کوله‌پشتی</button>
+          <button data-filter="accessory">اکسسوری</button>
+        </div>
+        <div class="products" id="productGrid">
+          
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-01.jpg" alt="کیف پاسپورتی مینیمال">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف پاسپورتی مینیمال</h3>
+          <div class="product-bottom">
+            <strong>۹۸۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف پاسپورتی مینیمال">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-02.jpg" alt="کیف دوشی کلاسیک">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف دوشی کلاسیک</h3>
+          <div class="product-bottom">
+            <strong>۱,۲۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی کلاسیک">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-03.jpg" alt="کیف دستی مدل ELLE">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دستی</small>
+          <h3>کیف دستی مدل ELLE</h3>
+          <div class="product-bottom">
+            <strong>۱,۴۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دستی مدل ELLE">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-04.jpg" alt="کیف مجلسی Pearl">
+          <span class="badge sale">تخفیف</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>مجلسی</small>
+          <h3>کیف مجلسی Pearl</h3>
+          <div class="product-bottom">
+            <strong>۱,۳۵۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف مجلسی Pearl">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-05.jpg" alt="کیف دوشی روزمره">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>دوشی</small>
+          <h3>کیف دوشی روزمره</h3>
+          <div class="product-bottom">
+            <strong>۱,۱۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی روزمره">+</button>
+          </div>
+        </div>
+      </article>
+    
+        </div>
+        <button class="more" type="button">بارگیری بیشتر محصولات</button>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div><h2>جدیدترین‌های DELVIN</h2><span>محصولات منتخب و تازه</span></div>
+          <a class="section-link" href="#shop">مشاهده همه ←</a>
+        </div>
+        <div class="products">
+          
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-01.jpg" alt="کیف پاسپورتی مینیمال">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف پاسپورتی مینیمال</h3>
+          <div class="product-bottom">
+            <strong>۹۸۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف پاسپورتی مینیمال">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-02.jpg" alt="کیف دوشی کلاسیک">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف دوشی کلاسیک</h3>
+          <div class="product-bottom">
+            <strong>۱,۲۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی کلاسیک">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-03.jpg" alt="کیف دستی مدل ELLE">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دستی</small>
+          <h3>کیف دستی مدل ELLE</h3>
+          <div class="product-bottom">
+            <strong>۱,۴۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دستی مدل ELLE">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-04.jpg" alt="کیف مجلسی Pearl">
+          <span class="badge sale">تخفیف</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>مجلسی</small>
+          <h3>کیف مجلسی Pearl</h3>
+          <div class="product-bottom">
+            <strong>۱,۳۵۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف مجلسی Pearl">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-05.jpg" alt="کیف دوشی روزمره">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>دوشی</small>
+          <h3>کیف دوشی روزمره</h3>
+          <div class="product-bottom">
+            <strong>۱,۱۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی روزمره">+</button>
+          </div>
+        </div>
+      </article>
+    
+        </div>
+        <button class="more" type="button">بارگیری بیشتر محصولات</button>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div><h2>جدیدترین‌های اکسسوری</h2><span>جزئیات کامل‌کننده استایل</span></div>
+          <a class="section-link" href="#shop">مشاهده همه ←</a>
+        </div>
+        <div class="products">
+          
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-01.jpg" alt="کیف پاسپورتی مینیمال">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف پاسپورتی مینیمال</h3>
+          <div class="product-bottom">
+            <strong>۹۸۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف پاسپورتی مینیمال">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-02.jpg" alt="کیف دوشی کلاسیک">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف دوشی کلاسیک</h3>
+          <div class="product-bottom">
+            <strong>۱,۲۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی کلاسیک">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-03.jpg" alt="کیف دستی مدل ELLE">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دستی</small>
+          <h3>کیف دستی مدل ELLE</h3>
+          <div class="product-bottom">
+            <strong>۱,۴۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دستی مدل ELLE">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-04.jpg" alt="کیف مجلسی Pearl">
+          <span class="badge sale">تخفیف</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>مجلسی</small>
+          <h3>کیف مجلسی Pearl</h3>
+          <div class="product-bottom">
+            <strong>۱,۳۵۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف مجلسی Pearl">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-05.jpg" alt="کیف دوشی روزمره">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>دوشی</small>
+          <h3>کیف دوشی روزمره</h3>
+          <div class="product-bottom">
+            <strong>۱,۱۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی روزمره">+</button>
+          </div>
+        </div>
+      </article>
+    
+        </div>
+        <button class="more" type="button">بارگیری بیشتر محصولات</button>
+      </section>
+
+      <section class="section" id="collections">
+        <div class="section-head"><div><h2>کالکشن‌ها</h2><span>انتخاب‌های تصویری DELVIN</span></div></div>
+        <div class="collections">
+          <a class="collection" href="#shop">
+            <img src="assets/images/delvin-01.jpg" alt="کالکشن DELVIN">
+            <div class="overlay"></div>
+            <div class="collection-text"><small>COLLECTION 01</small><h3>کالکشن کیف‌های DELVIN</h3><span>مشاهده کالکشن ←</span></div>
+          </a>
+          <a class="collection" href="#shop">
+            <img src="assets/images/delvin-06.jpg" alt="کالکشن روزمره">
+            <div class="overlay"></div>
+            <div class="collection-text"><small>COLLECTION 02</small><h3>انتخاب‌های روزمره</h3><span>مشاهده کالکشن ←</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="sale">
+        <div class="sale-banner">
+          <div><h2>فروش ویژه DELVIN</h2><p>محصولات منتخب با قیمت ویژه و تعداد محدود.</p></div>
+          <a href="#shop">مشاهده تخفیف‌ها</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div><h2>پرفروش‌ترین‌ها</h2><span>محبوب‌ترین انتخاب‌های مشتریان</span></div>
+          <a class="section-link" href="#shop">مشاهده همه ←</a>
+        </div>
+        <div class="products">
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-01.jpg" alt="کیف پاسپورتی مینیمال">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف پاسپورتی مینیمال</h3>
+          <div class="product-bottom">
+            <strong>۹۸۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف پاسپورتی مینیمال">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-02.jpg" alt="کیف دوشی کلاسیک">
+          <span class="badge">جدید</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دوشی</small>
+          <h3>کیف دوشی کلاسیک</h3>
+          <div class="product-bottom">
+            <strong>۱,۲۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی کلاسیک">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-03.jpg" alt="کیف دستی مدل ELLE">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>کیف دستی</small>
+          <h3>کیف دستی مدل ELLE</h3>
+          <div class="product-bottom">
+            <strong>۱,۴۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دستی مدل ELLE">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-04.jpg" alt="کیف مجلسی Pearl">
+          <span class="badge sale">تخفیف</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>مجلسی</small>
+          <h3>کیف مجلسی Pearl</h3>
+          <div class="product-bottom">
+            <strong>۱,۳۵۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف مجلسی Pearl">+</button>
+          </div>
+        </div>
+      </article>
+    
+
+      <article class="product">
+        <div class="product-image">
+          <img src="assets/images/delvin-05.jpg" alt="کیف دوشی روزمره">
+          <span class="badge">محبوب</span>
+          <button class="heart" type="button" aria-label="علاقه‌مندی">♡</button>
+        </div>
+        <div class="product-body">
+          <small>دوشی</small>
+          <h3>کیف دوشی روزمره</h3>
+          <div class="product-bottom">
+            <strong>۱,۱۹۰,۰۰۰ تومان</strong>
+            <button class="plus" type="button" data-product="کیف دوشی روزمره">+</button>
+          </div>
+        </div>
+      </article>
+    </div>
+        <button class="more" type="button">بارگیری بیشتر محصولات</button>
+      </section>
+
+      <section class="section" id="blog">
+        <div class="section-head"><div><h2>آخرین مطالب</h2><span>مجله DELVIN</span></div></div>
+        <div class="blog-grid">
+          <article class="blog-card"><img src="assets/images/delvin-02.jpg" alt=""><div><small>راهنمای خرید</small><h3>چطور کیف مناسب استایل روزمره را انتخاب کنیم؟</h3><a href="#">ادامه مطلب ←</a></div></article>
+          <article class="blog-card"><img src="assets/images/delvin-04.jpg" alt=""><div><small>استایل</small><h3>ترندهای جدید کیف و اکسسوری</h3><a href="#">ادامه مطلب ←</a></div></article>
+          <article class="blog-card"><img src="assets/images/delvin-07.jpg" alt=""><div><small>DELVein</small><h3>معرفی کالکشن جدید DELVIN</h3><a href="#">ادامه مطلب ←</a></div></article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="about">
+          <h2>BAG.DELVIN GALLERY</h2>
+          <p>نسخه نمایشی فروشگاه آنلاین برند DELVIN؛ ساختار محصول‌محور و دسته‌بندی‌شده، با تمرکز روی تجربه خرید ساده و نمایش حرفه‌ای محصولات واقعی پیج.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="support">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark">D</span><span class="logo-copy"><strong>BAG.DELVIN</strong><small>GALLERY</small></span></div>
+        <p>فروشگاه آنلاین کیف با تمرکز روی طراحی، کیفیت و تجربه خرید ساده.</p>
+      </div>
+      <div><h4>دسترسی سریع</h4><a href="#shop">فروشگاه</a><a href="#collections">کالکشن‌ها</a><a href="#sale">فروش ویژه</a></div>
+      <div><h4>خدمات مشتریان</h4><a href="#">پیگیری سفارش</a><a href="#">قوانین خرید</a><a href="#">سوالات متداول</a></div>
+      <div><h4>ارتباط با ما</h4><p>این نسخه برای ارائه به کارفرما آماده شده است.</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 BAG.DELVIN GALLERY</span><span>Client Preview</span></div>
+  </footer>
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
